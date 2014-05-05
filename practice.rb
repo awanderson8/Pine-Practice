@@ -1,12 +1,7 @@
-puts "give me a number...we're counting down!"
-
-x = gets.chomp.to_i
-
-puts ""
-
-while x >= 0
-	puts x
-	x -= 1
+xx = [1, 2, 3, 4, 5]
+x.each do |a|
+  a + 1
+  puts a
 end
 
-puts "BLAST OFF!"
+#practice
